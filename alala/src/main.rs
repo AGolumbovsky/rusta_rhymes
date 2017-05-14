@@ -2,7 +2,7 @@
 mod experiments;
 
 fn main() {
-    println!("Hello, worldddddddddd!");
+    println!("rust meetup");
 
     experiments::experimental_hello();
 }
