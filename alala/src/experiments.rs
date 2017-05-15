@@ -13,6 +13,14 @@ pub fn experimental_hello() {
     println!("This hello is experimental, accept at your own risk");
 }
 
+pub fn one_more() {
+    println!("this is one more function that doesn't do much");
+    for i in 1..11 {
+        if i%2 != 0 { continue; }
+        println!("i equols {}", i);
+    }
+}
+
 
 /*
 
