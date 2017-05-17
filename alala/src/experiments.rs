@@ -19,6 +19,20 @@ pub fn one_more() {
         if i%2 != 0 { continue; }
         println!("i equols {}", i);
     }
+    for (pos, i) in (30..41).enumerate() {
+        println!("some shit and {}", i);
+    }
+}
+
+pub fn match_stuff() {
+    let country_code = 4454;
+    let country = match country_code {
+        44 => "UK",
+        46 => "Sweden",
+        1...999 => "one of many",
+        _ => "fuck off"
+    };
+    println!("the country with code {} is {}", country_code, country);
 }
 
 

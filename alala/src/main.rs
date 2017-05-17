@@ -6,4 +6,5 @@ fn main() {
 
     experiments::experimental_hello();
     experiments::one_more();
+    experiments::match_stuff();
 }
