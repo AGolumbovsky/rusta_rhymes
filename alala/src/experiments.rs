@@ -35,6 +35,11 @@ pub fn match_stuff() {
     println!("the country with code {} is {}", country_code, country);
 }
 
+pub fn plus_three(a :i32) -> i32 {
+    let b = a + 3;
+    println!("{}", b);
+    a + 3 // make sure you understand why no semicolon
+}
 
 /*
 
