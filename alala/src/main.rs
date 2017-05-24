@@ -8,5 +8,5 @@ fn main() {
     experiments::one_more();
     experiments::match_stuff();
     experiments::plus_three(5);
-
+    experiments::structures();
 }

@@ -41,6 +41,16 @@ pub fn plus_three(a :i32) -> i32 {
     a + 3 // make sure you understand why no semicolon
 }
 
+struct Pt {
+    x: f64,
+    y: f64
+}
+
+pub fn structures () {
+    let p = Pt { x: 3.0, y: 4.0};
+    println!("point p is at ({}, {})", p.x, p.y);
+}
+
 /*
 
 // engine x what is
