@@ -51,6 +51,13 @@ pub fn structures () {
     println!("point p is at ({}, {})", p.x, p.y);
 }
 
+pub fn xoxo() {
+    let mut xo = "xo xo xo";
+    let mut yo = &xo;
+    // xo = "xi xi xi";
+    println!("{}", yo);
+}
+
 /*
 
 // engine x what is

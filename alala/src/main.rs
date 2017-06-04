@@ -9,4 +9,5 @@ fn main() {
     experiments::match_stuff();
     experiments::plus_three(5);
     experiments::structures();
+    experiments::xoxo();
 }
