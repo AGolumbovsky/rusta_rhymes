@@ -58,6 +58,17 @@ pub fn xoxo() {
     println!("{}", yo);
 }
 
+pub fn matches() {
+    let yo = 3;
+    match yo {
+        1 => println!("one"),
+        2 => println!("two"),
+        3 => println!("three"),
+        _ => println!("not on the list")
+    }
+
+}
+
 /*
 
 // engine x what is

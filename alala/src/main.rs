@@ -10,4 +10,5 @@ fn main() {
     experiments::plus_three(5);
     experiments::structures();
     experiments::xoxo();
+    experiments::matches();
 }
